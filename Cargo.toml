@@ -5,8 +5,8 @@ authors = ["kiwiyou <kiwiyou@protonmail.com>"]
 edition = "2018"
 description = "Simple input parser from stdin"
 license = "MIT"
-license-file = "LICENSE"
 repository = "https://github.com/kiwiyou/simput"
+readme = "README.md"
 
 [dependencies]
 memchr = "2.3"
