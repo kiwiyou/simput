@@ -3,6 +3,10 @@ name = "simput"
 version = "0.1.0"
 authors = ["kiwiyou <kiwiyou@protonmail.com>"]
 edition = "2018"
+description = "Simple input parser from stdin"
+license = "MIT"
+license-file = "LICENSE"
+repository = "https://github.com/kiwiyou/simput"
 
 [dependencies]
 memchr = "2.3"
