@@ -11,7 +11,7 @@ simput = "0.1"
 
 ## Usage
 `input!` macro parses input from standard input as a tuple, which contains values of types specified by parameters.
-Each values are split by ascii space (0x20).
+Each values are split by ascii space (0x20) or newline (0x0A).
 ```rust
 use simput::input;
 let (number, word) = input!(i32, String);
