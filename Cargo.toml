@@ -1,0 +1,12 @@
+[package]
+name = "simput"
+version = "0.1.0"
+authors = ["kiwiyou <kiwiyou@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+memchr = "2.3"
+
+[[test]]
+name = "simput-test"
+path = "test/test.rs"
